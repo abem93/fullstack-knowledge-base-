@@ -7,4 +7,4 @@
 # Installing Typescript
 - The compiler checks and turn the typescript back into vanilla javascript. It communicates any errors in the code.
 
-# Introduction to the Module
+# In
