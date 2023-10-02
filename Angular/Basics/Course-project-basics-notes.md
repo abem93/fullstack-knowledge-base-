@@ -15,7 +15,7 @@
   # Adding a Navigation Bar
   - Added nagivation bar to the header using bootstrap elements. Starting to take shape not fully functional.
   # Creating a "Recipe" Model
-
+  - Created a class in a seperate file to create the structure of the Recipe and how the data should look.
   # Adding Content to the Recipes Components
 
   # Outputting a list of Recipes with ngFor
