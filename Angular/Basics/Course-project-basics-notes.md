@@ -26,8 +26,8 @@
   # Working on the ShoppingListComponent
   - Created the DOM structure in the HTML for the Shopping List also recreated an ingredients array in the component file.
   # Creating an "Ingredient" model
-  Created a shared folded and inside created a ingredient model for how we want our ingredient data to look like
+  - Created a shared folded and inside created a ingredient model for how we want our ingredient data to look like
   # Creating and Outputting the Shipping List
-
+  - Added some ingredients to the array. Used ngFor to display the array in the section for shopping list.
   # Adding a shopping list edit section
-
+  - Added Structure for edit section in the HTML added buttons, no function added at this time to Buttons
