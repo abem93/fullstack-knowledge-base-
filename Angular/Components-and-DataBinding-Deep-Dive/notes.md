@@ -6,8 +6,9 @@
   # Property & Event Binding Overview
   - property and event binding can be used on html elements, properties and events as well as directives... properties and events as well as components.
   # Binding to Custom Properties
-  - use @input() and add to import core to allow elements to be seen from outside.
+  - use `@Input()` and add to import core to allow elements to be seen from outside.
   # Assigning an Alias to Custom Properties
+  - to assign an alias inside the `@input('alias')` parentheses you add the alias in quotation marks.
   # Binding to Custom Events
   # Assigning an Alias to Custom Events
   # Custom Property and Event Binding Summary
