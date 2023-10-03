@@ -4,6 +4,7 @@
   # Splitting Apps into Components
   - Split the App Component into two components, the server element component and the cockpit component. Html and typescript data was transferred. Although app is not communicating between parent and child at this time.
   # Property & Event Binding Overview
+  - property and event binding can be used on html elements, properties and events as well as directives... properties and events as well as components.
   # Binding to Custom Properties
   # Assigning an Alias to Custom Properties
   # Binding to Custom Events
