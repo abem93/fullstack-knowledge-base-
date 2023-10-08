@@ -23,11 +23,26 @@
   # Using Local References in Templates
   - In the component HTML file, we can use a `#referenceName` to reference a particular HTML element and extract its value from it using the .value
   # Getting Access to the Template & DOM with @ViewChild
-  - `@ViewChild(localReferenceName) variableName: ElementRef` ElementRef needs to be imported from angular/core.
+  - `@ViewChild('localReferenceName', {static: true}) variableName: ElementRef` ElementRef needs to be imported from angular/core.
+  to use use, `this.variableName.nativeElement.value`. DO NOT USE TO CHANGE ELEMENT THROUGH VIEW CHILD
   # Projecting Content into Components with ng-content
+  - adding `<ng-content></ng-content>` in the child html where you want the content to be in the parent html.
   # Understanding the Component Lifecycle
+  - 
+    - `ngOnChanges` called at the start and whenever one of our bound input(@Input) properties changes.
+    - `ngOnInit` gets executed once the component is initialized. doesnt always have to be visible/added to the DOM in order to be executed.
+    - `ngDoCheck` called every time a change detection runs. 
+    - `Change detection`, is an angular system that checks whether something has changed inside of a component itself to change the template. Like a property value or adding elements to DOM.
+    - `ngAfterContentInit` called after content via (ng-content) has been initialized
+    - `ngAfterContentChecked` called everytime change detection checked this content we are projecting in our component.
+    - `ngAfterViewInit` is called once the view of our own component has finished initializing/once view has been rendered.
+    - `ngAfterViewChecked` called whenever view has been checked and all changes have been made and no changes were detected by Angular
+    - `ngOnDestroy` called right before object is destroyed by angular.
   # Seeing lifecycle hooks in Action
+  - 
   # Lifecycle hooks and Template Access
+  - 
   # Getting Access to ng-content with @ContentChild
+  - 
   # Wrap Up
   # Assignment Components & Databinding
