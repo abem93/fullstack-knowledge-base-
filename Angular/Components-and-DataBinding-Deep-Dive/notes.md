@@ -39,10 +39,12 @@
     - `ngAfterViewChecked` called whenever view has been checked and all changes have been made and no changes were detected by Angular
     - `ngOnDestroy` called right before object is destroyed by angular.
   # Seeing lifecycle hooks in Action
-  - 
+  - Applied All the lifecycle hooks into our server components code. Created a button to destroy first component
   # Lifecycle hooks and Template Access
-  - 
+  - Here we looked at the place in time where lifecycles and elements run and when we can access them.
   # Getting Access to ng-content with @ContentChild
-  - 
+  - `@ContentChild('localHTMLReference', {static:true}) variable: ElementRef;`
+  to access content from outside component.
+  `this.variable.nativeElement.textContent`
   # Wrap Up
   # Assignment Components & Databinding
