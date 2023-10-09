@@ -3,7 +3,7 @@
   # Introduction
    -  Will be using Event and property binding to connect all our components.
   # Adding Navigation with Event Binding and ngIf
-    - Added navigation using ngIf to show only one of the components based on the navigation button selected
+    - Added navigation by binding navigation items and using ngIf to show only one of the components based on the navigation item selected
   # Passing Recipe Data with Property Binding
     - 
   # Passing Data with Event and Property Binding(Combined)
