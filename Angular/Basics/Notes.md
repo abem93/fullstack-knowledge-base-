@@ -1,7 +1,7 @@
 # The Basics
   # Module Introduction
   # Angular App Gets Loaded
-  'ng new <name> --no-strict'
+  `ng new <name> --no-strict`
   no routing
 
   'ng s -o'
