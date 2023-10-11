@@ -15,9 +15,9 @@
   # Using HostBinding to Bind to Host Properties
   - imported and used @HostListener from angular/core used the mouseenter and leave property to change background from blue to transparent.
   # Binding to Directive Properties
-  - 
+  - we used @hostbinding to bind the directives and manipulate the styles of the dom.
   # What happens behind the Scenes on Structural Directives
-  - 
+  - ngIf uses the star, but behind the scenes it is using property binding and ng-template to the condition. The *ngIf simplifies that.
   # Building a Structural Directive
   - 
   # Understanding ngSwitch
