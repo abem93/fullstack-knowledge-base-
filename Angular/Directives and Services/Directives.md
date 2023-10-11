@@ -8,7 +8,8 @@
   # ngClass and ngStyle Recap
   - recapped ngClass by creating an 'odd' class in the css that turns the text color to red. in the html component this class is only added to the attribute if number is not evenly divisible by 2. ngStyle we added a background color only if the number was not evenly divisible by 2. 
   # Creating a Basic Attribute Directive
-  - 
+  - create a folder with a typescript file.
+  `name.directive.ts` instead of component we say directive in this file. we have to import "Directive" from angular/core and export class the directived. as  well as name the selector. Afterwards we have to import it into the app module file.
   # Using the Renderer to build a Better Attribute Directive
   - 
   # Using HostBinding to Bind to Host Properties
