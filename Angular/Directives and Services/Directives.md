@@ -13,7 +13,7 @@
   # Using the Renderer to build a Better Attribute Directive
   - `ng generate directive "folder"/'directiveName` then import OnInit, ElementRef, and Renderer2. Implement the OnInit in the export class. add ngOninit. In the constructor method add `private elementRef: ElementRef, private renderer: Renderer2` we used this in ngOnInit by using the `.setStyle(this.elementRef.nativeElement,'background-colo', 'orange')` 
   # Using HostBinding to Bind to Host Properties
-  - 
+  - imported and used @HostListener from angular/core used the mouseenter and leave property to change background from blue to transparent.
   # Binding to Directive Properties
   - 
   # What happens behind the Scenes on Structural Directives
