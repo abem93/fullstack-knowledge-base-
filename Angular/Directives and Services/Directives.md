@@ -6,7 +6,7 @@
   # ngFor and ngif Recap
   - recapped ngFor to loop through arrays/list and display them on DOM. Used ngif to toggle between the odds and evens list.
   # ngClass and ngStyle Recap
-  - 
+  - recapped ngClass by creating an 'odd' class in the css that turns the text color to red. in the html component this class is only added to the attribute if number is not evenly divisible by 2. ngStyle we added a background color only if the number was not evenly divisible by 2. 
   # Creating a Basic Attribute Directive
   - 
   # Using the Renderer to build a Better Attribute Directive
