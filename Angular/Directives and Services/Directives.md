@@ -21,4 +21,4 @@
   # Building a Structural Directive
     - `ng g d <name>` creates a new directive. We used input() set <directiveName>(condition:boolean). To create or view element we  used the .createEmbedded view. We also imported view container Ref and templateRef
   # Understanding ngSwitch
-  - 
+    - `*ngSwitch="condition"` allows you to display elements in the DOM per condition when there are many conditions. Like a normal Case switch in JS.
