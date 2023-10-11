@@ -5,6 +5,8 @@
   no routing
 
   'ng s -o'
+  # A basic Project setup using Bootstrap
+  - `npm install --save bootstrap@3`
   # Components are Important
   - Angular apps are built from components.
   # Creating a new Component
