@@ -11,7 +11,7 @@
   - create a folder with a typescript file.
   `name.directive.ts` instead of component we say directive in this file. we have to import "Directive" from angular/core and export class the directived. as  well as name the selector. Afterwards we have to import it into the app module file.
   # Using the Renderer to build a Better Attribute Directive
-  - 
+  - `ng generate directive "folder"/'directiveName` then import OnInit, ElementRef, and Renderer2. Implement the OnInit in the export class. add ngOninit. In the constructor method add `private elementRef: ElementRef, private renderer: Renderer2` we used this in ngOnInit by using the `.setStyle(this.elementRef.nativeElement,'background-colo', 'orange')` 
   # Using HostBinding to Bind to Host Properties
   - 
   # Binding to Directive Properties
