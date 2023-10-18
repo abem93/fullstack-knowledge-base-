@@ -21,10 +21,43 @@
     - we can pass parameters in our route by adding a /and then a colon and then the parameter for example `users/:id`
   # Fetting Route Parameters
     - import ActivatedRoute from angular/router inject the activated route in the component constructor we will be using it.
+
+    If route is already in component and we need to update params we need to subscribe to params.
   # An important note about Route Observables
-    - 
+    - if subscribed to an observable angular will destroy it everytime you leave the component. Unless it is a custom observable. Then you must import OnDestroy and <unsubscribe()>
+
   # Passing Query Parameters and Fragments
-    -  
+    - we add the query parameter by adding `[queryParams]="{key:vale}"`
+    and fragments by adding the `fragment="loading"`
+  # Retrieving Query Parameters and Fragments
+    - 
   # Practicing and some Common Gotchas
     - 
   # Setting up Child (Nested) Routes
+    - 
+  # Using Query Parameters - Practice
+    - 
+  # Configuring the Handling of Query Parameters
+    - 
+  # Redirecting and Wildcard Routes
+    - 
+  # Redirecting Path Matching
+    - 
+  # Outsourcing the Route Configuration
+    - 
+  # An Introduction to Guards
+    - 
+  # Protecting Routes with canActivate
+    - 
+  # Protecting Child(Nested) Routes with canActivateChild
+    - 
+  # Using a Fake Auth Service
+    - 
+  # Controlling Navigation with canDeactivate
+    - 
+  # Passing Static Data to a Route
+    - 
+  # Resolving Dynamic DAta with the resolve Guard
+    - 
+  # Understanding Location Strategies
+    - 
