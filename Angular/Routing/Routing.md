@@ -15,6 +15,16 @@
   # Navigating Programmatically
     - we can trigger the navigation in our code by importing Router from angular/router. Adding it to the constructor and then in our code using `this.router.navigate(["/home"])`
   # Using Relative Paths in Programmatic Navigation
-    - 
+    - navigate does not know on what route we are currently on unlike the routerLink. So a we need to pass and second parameter to the navigate method which is an object that is relativeTo: this.route. We do this by setting route in the constructor and importing ActivatedRoute.
+    the code should look something like this <this.router.navigate(['servers'], {relativeTo: this.route})>
   # Passing Parameters to Routes
+    - we can pass parameters in our route by adding a /and then a colon and then the parameter for example `users/:id`
+  # Fetting Route Parameters
+    - import ActivatedRoute from angular/router inject the activated route in the component constructor we will be using it.
+  # An important note about Route Observables
     - 
+  # Passing Query Parameters and Fragments
+    -  
+  # Practicing and some Common Gotchas
+    - 
+  # Setting up Child (Nested) Routes
