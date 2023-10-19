@@ -9,11 +9,11 @@
   # Building Custom Observable
     - Created a custom counter observable by importing Observable from rxjs then creating a `const variable = Observable.create(...)`
   # Errors & Completion
-    - 
+    - Error cancels observable/ does not complete it.
   # Observables & You!
-    - 
+    - Observables wrap and event source and push out data or error codes.
   # Understanding Operators
-    - 
+    - pipe operator allows us to transform, mold, build up and funnel our data to transform and filter it out. 
   # Subjects
-    - 
-  
+    - Subjects are more efficient than event emitter to create observable.
+    Also need to unsubscribe. but can only be used as cross component event emitters. Can not be used if using @Output
