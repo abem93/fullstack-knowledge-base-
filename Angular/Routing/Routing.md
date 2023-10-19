@@ -59,6 +59,6 @@
   # Passing Static Data to a Route
     - Data can be passed through the routing module. We can add `data:{message: 'Your message'},` or any other data in the object.
   # Resolving Dynamic Data with the resolve Guard
-    - 
+    - We extracted and inputed data justing the resolve guard
   # Understanding Location Strategies
-    - 
+    - <useHash: true> to add hash to fix routing issue in older browsers to make sure 404 page always return to index.html
