@@ -44,20 +44,21 @@
   # Redirecting Path Matching
     - a common error is if the path is blank, we can fix this by adding `pathMatch: 'full'` to our path route
   # Outsourcing the Route Configuration
-    - 
+    - We add the Routing to a new file copy all our routes and import all components. in NgModule we add imports:[RouterModule.forRoot('ourRoutes')]
+    and export:[RouterModule] because it has already been configured.
   # An Introduction to Guards
-    - 
+    - Guards are used to make sure only certain parts of the application are visible to logged in users/authenticated users
   # Protecting Routes with canActivate
-    - 
+    - We use the canActivate to mkae sure it is authenticated or else it is rejected.
   # Protecting Child(Nested) Routes with canActivateChild
-    - 
+    - the CanActivateChild guard allows you to protect your whole route and  all your child routes or just the child routes.
   # Using a Fake Auth Service
-    - 
+    - We create fake login and log out methods and buttons to activate our CanActivate guards.
   # Controlling Navigation with canDeactivate
-    - 
+    - Can deactivate allows us to stop the user from leaving a page to make sure changes are saved and if they are routed to the right screen.
   # Passing Static Data to a Route
-    - 
-  # Resolving Dynamic DAta with the resolve Guard
+    - Data can be passed through the routing module. We can add `data:{message: 'Your message'},` or any other data in the object.
+  # Resolving Dynamic Data with the resolve Guard
     - 
   # Understanding Location Strategies
     - 
