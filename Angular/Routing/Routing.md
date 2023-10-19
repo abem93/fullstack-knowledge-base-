@@ -30,19 +30,19 @@
     - we add the query parameter by adding `[queryParams]="{key:vale}"`
     and fragments by adding the `fragment="loading"`
   # Retrieving Query Parameters and Fragments
-    - 
+    - to access the query Params and fragments. inject the  ActivatedRoute, then `this.route.snapshot.queryParams` to log the Params or `console.log(this.route.snapshot.fragment)` to log the fragment. To access and subscribe `this.route.queryParams.subscribe();` and `this.route.fragment.subscribe();`
   # Practicing and some Common Gotchas
-    - 
+    - When we get params from snapshot we need to make sure we have the right type of data, if we need a number we need to convert or a string
   # Setting up Child (Nested) Routes
-    - 
+    - We do this by going back to route path. and add `, children:[path: 'child route', component: 'Component']`
   # Using Query Parameters - Practice
-    - 
+    - We used to the query paramems to extract a value and use it for ngIf to show the edit component.
   # Configuring the Handling of Query Parameters
-    - 
+    - on our Router.navigate inside the relatie to. We add queryParamsHandling property and set it to `'preserve'`
   # Redirecting and Wildcard Routes
-    - 
+    - in the routes we add a new one at the bottom `{ path: '**', redirectTo: '/not-found-page'}`
   # Redirecting Path Matching
-    - 
+    - a common error is if the path is blank, we can fix this by adding `pathMatch: 'full'` to our path route
   # Outsourcing the Route Configuration
     - 
   # An Introduction to Guards
