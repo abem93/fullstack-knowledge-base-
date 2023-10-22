@@ -10,7 +10,7 @@
   # An Example Form
     - no action attribute or method, in the HTML code. Form should not be submitted to server.
   # TD: Creating the Form and Registering the Controls
-    - 
+    - we allow angular to view what controls we want registered by adding ngModel into the tag of the input and we also add name="someName" to name our control.
   # TD: Submitting and Using the Form
     - 
   # TD: Understanding Form State
