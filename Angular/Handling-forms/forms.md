@@ -31,13 +31,13 @@
   # TD: Grouping Form Controls
     - we can wrap the parent div of input values with ngModelGroup and give it a name. With that name given we can group inputs/controls of the form together.
   # TD: Handling Radio Buttons
-    - 
+    - we added radio buttons by creating a variable with an array of our options. We then in a div used `*ngFor="let var of vars"` inside that div we had an input with ngModel and `[value]="var"` and inside the input in text we binded {{ var }} 
   # TD: Setting and Patching Form Values
-    - 
+    - you can use .setValue of the form to input all the default values you want Not useful if you have a button to write these values and user already has some type of input. .patchValue to override parts of a form.
   # TD: Using Form Data
-    - 
+    - we used the form data to display it only if it was submited by 2way binding it 
   # TD: Resetting Forms
-    - 
+    - form.reset() will reset the inputs and state of your form.
   # Assignment: Template-driven Forms
     - 
   # Introduction to Reactive Approach
