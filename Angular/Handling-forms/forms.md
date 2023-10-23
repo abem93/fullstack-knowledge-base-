@@ -54,7 +54,7 @@
   # Reactive: Getting Access to Controls
     - We can can access the controls to display error message by use the .get('controlName').valid/.touched we can omit the .get if we are trying to control the whole form
   # Reactive: Grouping Controls
-    - 
+    - We group control by going into our TS file and where we declared our controls we declare the group, instead of it being a `new FormControl` it is a <new FormGroup> object this time. and we insert our grouped controls there. In our Html we wrap those controls in a div so they are in the same div together. and where we had already declared them we add <groupName.controlName>. We add . groupName to the already declared control Name. 
   # Reactive: Arrays of Form Controls(FormArray)
     - 
   # Reactive: Creationg Custom Validators
