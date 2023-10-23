@@ -39,9 +39,32 @@
   # TD: Resetting Forms
     - form.reset() will reset the inputs and state of your form.
   # Assignment: Template-driven Forms
-    - 
+    - Applied all the knowledge we learn in the past lessons
   # Introduction to Reactive Approach
-    - 
   # Reactive: Setup
-    - 
+    - We must import the ReactiveFormsModule to our app.module and the FormsGroup to our component TS file.
   # Reactive: Creating a Form in Code
+    - created the form in the TS file. by taking our form variable of type FormGroup and adding and importing new FormControl(null/'default value')
+  # Reactive: Syncing HTML and Form
+    - we syngchronize the html and and form by adding [formGroup]='ourFormName' from our TS file.
+  # Submitting the Form
+    - to submit the form we add `(ngSubmit)='onSubmit()` to our html form element. and we then in our app component TS file we log this.formGroup that we created in the TS file.
+  # Reactive: Adding Validation
+    - We added validation by importing validators from @angular/forms in our TS file. then in our Formgroup where we declared the controls, we added a second parameter... Validators.required, or [validators.requiered, validators.email] to add multiple validators.
+  # Reactive: Getting Access to Controls
+    - We can can access the controls to display error message by use the .get('controlName').valid/.touched we can omit the .get if we are trying to control the whole form
+  # Reactive: Grouping Controls
+    - 
+  # Reactive: Arrays of Form Controls(FormArray)
+    - 
+  # Reactive: Creationg Custom Validators
+    - 
+  # Reactive: Using Error Codes
+    - 
+  # Reactive: Creating a Custom Async Validator
+    - 
+  # Reactive: Reacting to Status or Value Change
+    - 
+  # Reactive: Setting and Patching Values
+    - 
+  # Assignment: Reactive Form
