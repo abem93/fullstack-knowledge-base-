@@ -56,7 +56,7 @@
   # Reactive: Grouping Controls
     - We group control by going into our TS file and where we declared our controls we declare the group, instead of it being a `new FormControl` it is a <new FormGroup> object this time. and we insert our grouped controls there. In our Html we wrap those controls in a div so they are in the same div together. and where we had already declared them we add <groupName.controlName>. We add . groupName to the already declared control Name. 
   # Reactive: Arrays of Form Controls(FormArray)
-    - 
+    - To create a form array we first created a div that would hold our formArray. Inside the div we had a button with with a (click)='onclickMethod()' and then another div with `*ngFor="let control of getControls(); let i = index"`  for our input. inside the input we added[formControlName]="i". In our TS file where our controls were declared we added a new control <new FormArray[]> instead of control. We pushed data into it from from the on <clickMethod()> by wrapping everything in the (<FormArray>this.form.get('array')).push(control) and defining the control as normal form Control and passing it as a parameter. We then used the getControls() to return and loop through the array
   # Reactive: Creationg Custom Validators
     - 
   # Reactive: Using Error Codes
