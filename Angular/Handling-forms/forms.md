@@ -58,7 +58,7 @@
   # Reactive: Arrays of Form Controls(FormArray)
     - To create a form array we first created a div that would hold our formArray. Inside the div we had a button with with a (click)='onclickMethod()' and then another div with `*ngFor="let control of getControls(); let i = index"`  for our input. inside the input we added[formControlName]="i". In our TS file where our controls were declared we added a new control <new FormArray[]> instead of control. We pushed data into it from from the on <clickMethod()> by wrapping everything in the (<FormArray>this.form.get('array')).push(control) and defining the control as normal form Control and passing it as a parameter. We then used the getControls() to return and loop through the array
   # Reactive: Creationg Custom Validators
-    - 
+    - We created a custom Validator in the TS file, we gave it a parameter of `customValidator(control: FormControl):{[s:string]:boolean}{}` it then returns true or null
   # Reactive: Using Error Codes
     - 
   # Reactive: Creating a Custom Async Validator
