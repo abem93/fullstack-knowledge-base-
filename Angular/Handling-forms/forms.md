@@ -62,7 +62,7 @@
   # Reactive: Using Error Codes
     - We used the error codes to manage the type of error message we displayed. If the field was left blank we target the `.get('form'.control).errors['required']` to display a message if empty. and our custom validator if the username entered was invalid.
   # Reactive: Creating a Custom Async Validator
-    - 
+    - we created a sync function similar to the custom validator except instead of a object with a string and boolean it is a type Promise<any> | Observable<any>. Then the rest is a normal promise asynch function
   # Reactive: Reacting to Status or Value Change
     - 
   # Reactive: Setting and Patching Values
