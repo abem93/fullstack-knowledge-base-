@@ -60,7 +60,7 @@
   # Reactive: Creationg Custom Validators
     - We created a custom Validator in the TS file, we gave it a parameter of `customValidator(control: FormControl):{[s:string]:boolean}{}` it then returns true or null
   # Reactive: Using Error Codes
-    - 
+    - We used the error codes to manage the type of error message we displayed. If the field was left blank we target the `.get('form'.control).errors['required']` to display a message if empty. and our custom validator if the username entered was invalid.
   # Reactive: Creating a Custom Async Validator
     - 
   # Reactive: Reacting to Status or Value Change
