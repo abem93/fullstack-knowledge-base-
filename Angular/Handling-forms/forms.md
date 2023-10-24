@@ -64,7 +64,8 @@
   # Reactive: Creating a Custom Async Validator
     - we created a sync function similar to the custom validator except instead of a object with a string and boolean it is a type Promise<any> | Observable<any>. Then the rest is a normal promise asynch function
   # Reactive: Reacting to Status or Value Change
-    - 
+    - subscribing to .statusChanges to see the changes in status. or subscribing to .valueChanges to see everytime a value is changed/input.
   # Reactive: Setting and Patching Values
-    - 
+    - <setValue> is used to set the values of the whole form. While <patchValue> is use to only set/change the values of a specific control.
   # Assignment: Reactive Form
+    - Completed!
