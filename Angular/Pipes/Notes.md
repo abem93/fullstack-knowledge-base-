@@ -10,9 +10,9 @@
   # Where to learn more about Pipes
     - we can find the built in pipes at angular.io
   # Chaining Multiple Pipes
-    - 
+    - we can add multiple pipes by adding another | and adding it. But the order matters as the pipe works on the output of the previous pipe.
   # Creating a Custom Pipe
-    - 
+    - Create a pipe by creating a new file customPipe.pipe.ts. We export the class customPipe and implement PipeTransform. inside we use the transform method to write our pipe code. we also at the @pipe({ name: 'customName'})  and give it a name. We add it to our app module declarations. Now we can use it in our html file.
   # Parametrizing a Custom Pipe
     - 
   # Example: Creating a Filter Pipe
