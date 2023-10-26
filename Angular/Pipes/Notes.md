@@ -8,7 +8,7 @@
   # Parametrizing Pipes
     - we parameterize the pipe by adding a colon : and then the parameter. But only if they pipe can take a parameter.
   # Where to learn more about Pipes
-    - 
+    - we can find the built in pipes at angular.io
   # Chaining Multiple Pipes
     - 
   # Creating a Custom Pipe
