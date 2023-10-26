@@ -14,7 +14,7 @@
   # Creating a Custom Pipe
     - Create a pipe by creating a new file customPipe.pipe.ts. We export the class customPipe and implement PipeTransform. inside we use the transform method to write our pipe code. we also at the @pipe({ name: 'customName'})  and give it a name. We add it to our app module declarations. Now we can use it in our html file.
   # Parametrizing a Custom Pipe
-    - 
+    - we can add parameters by adding a second arguement in our transform element, and we can continue adding more arguements for more parameters.
   # Example: Creating a Filter Pipe
     - 
   # Pure and Impure Pipes(or: How to "fix" the Filter Pipe)
