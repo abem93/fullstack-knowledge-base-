@@ -18,7 +18,7 @@
   # Example: Creating a Filter Pipe
     - We can also create a pipe with the cli `ng generate pipe <name>` it does all the imports and exports. We just fill out the transform with our filter code. We filter based on the input.
   # Pure and Impure Pipes(or: How to "fix" the Filter Pipe)
-    - 
+    - Angular does not run pipe everytime there is changes in on our page. But if you do want it to run on changes in the @pipe set <pure: false> but this might impact performance issues.
   # Understanding the "async" Pipe
-    - 
+    - The async pipe allows the user to use string interpolation with an async variable or method and output the result. instead of outputting object object.
   # Assignment: Pipes
