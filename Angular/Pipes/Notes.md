@@ -16,7 +16,7 @@
   # Parametrizing a Custom Pipe
     - we can add parameters by adding a second arguement in our transform element, and we can continue adding more arguements for more parameters.
   # Example: Creating a Filter Pipe
-    - 
+    - We can also create a pipe with the cli `ng generate pipe <name>` it does all the imports and exports. We just fill out the transform with our filter code. We filter based on the input.
   # Pure and Impure Pipes(or: How to "fix" the Filter Pipe)
     - 
   # Understanding the "async" Pipe
