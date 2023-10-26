@@ -4,7 +4,7 @@
   - 
     - they are useful for transforming the output in our screen.
   # Using Pipes
-    - 
+    - we use pipe symbol `|` and then the pipe name we want to use
   # Parametrizing Pipes
     - 
   # Where to learn more about Pipes
