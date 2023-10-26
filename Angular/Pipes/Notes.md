@@ -6,7 +6,7 @@
   # Using Pipes
     - we use pipe symbol `|` and then the pipe name we want to use
   # Parametrizing Pipes
-    - 
+    - we parameterize the pipe by adding a colon : and then the parameter. But only if they pipe can take a parameter.
   # Where to learn more about Pipes
     - 
   # Chaining Multiple Pipes
