@@ -3,7 +3,7 @@
   # Module Introduction
     - How angular connects to a backends and how to send http requests.
   # How does Angular Interact With Backends?
-    - 
+    - YOU DONT CONNECT ANGULAR TO DATABASE DIRECTLY!!! Everyone can see your angular code. You send HTTP requests and get back Resposnses.
   # The Anatomy of a Http Request
     - 
   # Backend (Firebase) Setup
