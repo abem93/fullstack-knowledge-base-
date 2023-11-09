@@ -3,9 +3,12 @@
   # Module Introduction
     - How angular connects to a backends and how to send http requests.
   # How does Angular Interact With Backends?
-    - YOU DONT CONNECT ANGULAR TO DATABASE DIRECTLY!!! Everyone can see your angular code. You send HTTP requests and get back Resposnses.
+    - YOU DONT CONNECT ANGULAR TO DATABASE DIRECTLY!!! EVERYONE CAN SEE YOUR CODE.Everyone can see your angular code. You send HTTP requests and get back Resposnses.
   # The Anatomy of a Http Request
-    - 
+    - * URL- api endpoint(/post/1)
+      * HTTP Verb - POST, GET, PUT 
+      * Headers(Metadata) - optional.
+      * Body - ({title: "New Post"})
   # Backend (Firebase) Setup
     - 
   # Sending a POST Request
