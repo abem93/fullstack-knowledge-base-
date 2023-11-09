@@ -38,11 +38,11 @@
   # Showing a Loading Indicator
     - added a variable of is fetching and set it to false; in the fetch function at the top we set this variable to true. then in the subscribe we set it back to false. In our template we display it when isFetching is true.
   # Using a Service for Http Requests
-    - 
+    - Created a service .ts file to store our Post http requests. We just created the methods and copied the coded, making sure to make the right imports.
   # Services & Components Working Together
-    - 
+    - When moving the fetch, our posts were no longer loading, so we removed the subscribe method in the service and returned the http method. then in our app component we resubscribed to it and set our posts = to the return data.
   # Sending a DELETE Request
-    - 
+    - The delte request was faily simple since we were clearing all the post. `return this.http.delete('url/posts.json')` and we set our posts array to an empty array. Then it was all clear.
   # Handling Errors
     - 
   # Using Subjects for Error Handling
