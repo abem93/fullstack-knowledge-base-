@@ -36,7 +36,7 @@
   # Outputting Posts
     - we set the post to our array variable. we then in our template organize how we want the data to be shown and do some ngif to check if there is data. and ngFor to add the posts.
   # Showing a Loading Indicator
-    - 
+    - added a variable of is fetching and set it to false; in the fetch function at the top we set this variable to true. then in the subscribe we set it back to false. In our template we display it when isFetching is true.
   # Using a Service for Http Requests
     - 
   # Services & Components Working Together
