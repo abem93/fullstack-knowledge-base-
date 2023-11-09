@@ -20,11 +20,19 @@
       console.log(responseData)
     })`
   # GETting Data
-    - 
+    - use the GET verb and subscribe to request.
+    ```
+    this.http.get(
+      'https://ng-complete-guide-c8cb1-default-rtdb.firebaseio.com/posts.json'
+    ).subscribe(posts => {
+      console.log(posts)
+    });
+    ```
+  
   # Using RxJS Operator to Trasnform Response Data
-    - 
+    - we used the .pipe and .map observable operators to turn our JSON object into an array of posts with the ID included.
   # Using Types with the HttpClient
-    - 
+    - We created a Post model, type so we could more easily and more cleanly set our data type. But it can be done without the model. `<{property: type}>` right after the verb
   # Outputting Posts
     - 
   # Showing a Loading Indicator
