@@ -10,9 +10,15 @@
       * Headers(Metadata) - optional.
       * Body - ({title: "New Post"})
   # Backend (Firebase) Setup
-    - 
+    - Firebase account setup- Realtime DB
   # Sending a POST Request
-    - 
+    - import HttpClients from @angular/common/http, must subcribe to request.
+    `this.http.post(
+      'URL',
+      postData
+    ).subscribe(responseData => {
+      console.log(responseData)
+    })`
   # GETting Data
     - 
   # Using RxJS Operator to Trasnform Response Data

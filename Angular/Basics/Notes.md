@@ -7,6 +7,7 @@
   'ng s -o'
   # A basic Project setup using Bootstrap
   - `npm install --save bootstrap@3`
+    - `"node_modules/bootstrap/dist/css/bootstrap.min.css"`,
   # Components are Important
   - Angular apps are built from components.
   # Creating a new Component
