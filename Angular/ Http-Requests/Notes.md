@@ -34,7 +34,7 @@
   # Using Types with the HttpClient
     - We created a Post model, type so we could more easily and more cleanly set our data type. But it can be done without the model. `<{property: type}>` right after the verb
   # Outputting Posts
-    - 
+    - we set the post to our array variable. we then in our template organize how we want the data to be shown and do some ngif to check if there is data. and ngFor to add the posts.
   # Showing a Loading Indicator
     - 
   # Using a Service for Http Requests
