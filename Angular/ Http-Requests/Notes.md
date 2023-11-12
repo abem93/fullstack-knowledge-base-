@@ -44,13 +44,13 @@
   # Sending a DELETE Request
     - The delte request was faily simple since we were clearing all the post. `return this.http.delete('url/posts.json')` and we set our posts array to an empty array. Then it was all clear.
   # Handling Errors
-    - 
+    - We added a error option to our to our http request inside the subscribe method observable.
   # Using Subjects for Error Handling
-    - 
+    - We create a subject in the service to emit the error message and subscribe to it in our component sending out the http request. We must also use ngOnDestroy to unsubscribe to it as well.
   # Using the catchError Operator
-    - 
+    - Using the catch error we can send error messages to a someplace like an analytics server and then pass it on to our component. But we return a throwError of which both are imported from rxjs.
   # Error handling & UX
-    - 
+    - Created a button that resets the error variable back to null to handle the error message.
   # Setting Headers
     - 
   # Adding Query Params
