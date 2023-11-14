@@ -52,15 +52,15 @@
   # Error handling & UX
     - Created a button that resets the error variable back to null to handle the error message.
   # Setting Headers
-    - 
+    - in our get verb after the link we add a comma, and an object. We then in side the object add headers: new HttpHeader({key:value}) import httpHeaders first. 
   # Adding Query Params
-    - 
+    - very similar to headers we do params: new HttpParams().set('key', 'value')
   # Observing Different Types of Responses
-    - 
+    - We  can shape the response a littl more by using the observe after the url with what we want such as the response {observe: 'response'} also we can pipe(tap(event => {event})) to see what types of responses we got back and to respond accordingly in our ui.
   # Changing the Response Body type
-    - 
+    - The response type of http requests is normally json but can be changed to text or any other available format. although if it was stated before what type of data you wanted in the top. and then changed lower in the code the response might break your code.
   # Introducing Interceptors
-    - 
+    - Interceptors are just like the name saids, they intercept requests and handle. We consoled logged request is on the way with every request being made.
   # Manipulating Request Objects
     - 
   # Response Interceptors
